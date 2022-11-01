@@ -9,6 +9,7 @@ import DashboardLayout from './components/layouts/dashboard-layout';
 import Help from './pages/dashboard/help';
 import FAQ from './pages/dashboard/faq';
 import DashboardHome from './pages/dashboard/home';
+import Products from './pages/products';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                   <Route index element={<Home />} />
                   <Route path="about" element={<About />} />
                   <Route path="contact" element={<Contact />} />
+                  <Route path="products" element={<Products />} />
               </Route>
               <Route path="dashboard" element={<DashboardLayout />}>
                   <Route index element={<DashboardHome />} />
