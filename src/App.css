@@ -20,3 +20,9 @@ nav ul li {
 nav ul li a {
   color: #fff;
 }
+
+/* Dashboard */
+
+.Dashboard-header {
+  background-color: blue;
+}
